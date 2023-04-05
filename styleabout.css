@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+#logo-color i img{
+    width: 50px;
+}
+.navbar-brand{
+    margin-left: 50px;
+    color: rgba(255,166,0);
+    font-weight: bold;
+}
+#menu-color{
+    background-color: rgba(255,166,0);
+}
+.navbar-brand:hover{
+    color: rgba(255,166,0);
+}
+#navbar-color{
+    background-color: black;
+}
+.navbar-nav{
+    margin-left: 50px;
+}
+.nav-item{
+    margin-left: 10px;
+}
+#first{
+    border-bottom: 2px solid rgba(255,166,0);
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+.nav-link:hover{
+    background-color: rgba(255,166,0);
+    box-shadow: 0 0 5px rgba(255,166,0),
+                 0 0 20px rgba(255,166,0),
+                 0 0 60px rgba(255,166,0),
+                 0 0 150px rgba(255,166,0);
+                 color: black;
+}
+
+.main-content{
+    width: 100%;
+    height: 90vh;
+    background-image: url(img/background.png);
+    background-size: cover;
+    background-position: 73%;
+}
+.content{
+    padding-top: 160px;
+    margin-left: 50px;
+    color: white;
+}
+.content h1{
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.content h2{
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+#btn1 button{
+    width: 200px;
+    height: 35px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background-color: rgba(255,166,0);
+    border: none;
+    transition: 0.3s ease;
+    cursor: pointer;
+
+}#btn1 button:hover{
+    background-color: rgba(255,166,0);
+    box-shadow: 0 0 5px rgba(255,166,0),
+                 0 0 20px rgba(255,166,0),
+                 0 0 60px rgba(255,166,0),
+                 0 0 150px rgba(255,166,0);
+}
+  :root{
+    
+    --mincolor: #fff;
+    --sc-color: rgba(255,166,0);
+    --background: #222831;
+  }
+
+  html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 1rem;
+    font-size: 65%;
+}
+html::-webkit-scrollbar{
+    width: 0.8rem;
+}
+html::-webkit-scrollbar-track{
+    background: #fff;
+}
+html::-webkit-scrollbar-thumb{
+    background: #333;
+    border-radius: 5rem;
+}
+
+.btn{
+  display: inline-block;
+  margin: 1rem 0;
+  padding: 0.6rem 3rem;
+  color: #fff;
+  background: var(--sc-color);
+  cursor: pointer;
+  font-size: 1.7rem;
+  border-radius: 5rem;
+  border: 0.1rem solid var(--sc-color);
+}
+.btn:hover{
+  background: none;
+  color: var(--sc-color);
+}
+
+
+  .menu .row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30%,1fr));
+    gap: 2rem;
+   
+}
+.menu .row .colm{
+    background: var(--background);
+    
+}
+.menu .row .colm .images{
+    width: 100%;
+    height: 23rem; 
+    border-bottom-left-radius: 4rem;
+    background: #eee;
+}
+.menu .row .colm .images img{
+    width: 100%;
+    object-fit: cover;
+    padding: 5rem;
+}
+.menu .row .colm .content{
+    background: var(--background);
+    color: var(--mincolor);
+    padding: 2rem;
+    
+}
+.menu .row .colm .content h3{
+    font-size: 3rem;
+    margin: 0.8rem;
+}
+.menu .row .colm .content p{
+    font-size: 1.6rem;
+    margin: 0.8rem;
+}
+
+.menu .row .colm .content .price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu .row .colm .content span{
+    font-size: 1.6rem;
+    border-radius: 50%;
+    background: var(--sc-color);
+    padding: 1rem;
+}
+.menu .row .colm:hover .images img{
+    transform: scale(1.1);
+}
+.menu .row .colm .content span:hover{
+    background: none;
+    
+}
+/* about us*/
+.about-us{
+  margin-top: 50px;
+}
+.about-us p{
+  font-size: medium;
+  text-align: justify;
+}
+.about-us h3{
+  color: rgba(255,166,0);
+  font-weight: bold;
+}
+
+/** contact**/
+.contact-me{
+  width: 100%;
+  height: 290px;
+  background: #191919;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-me p{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.contact-me .button-two{
+  background-color: rgba(255,166,0);
+  color: yellow;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight:  bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: .4s;
+}
+.contact-me .button-two:hover{
+  background-color: transparent;
+  border: 2px solid rgba(255,166,0);
+  cursor: pointer;
+}
+footer{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: #101010;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer p:nth-child(1){
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.social{
+  display: flex;
+}
+.social a{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,166,0);
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.social a:hover{
+  transform: scale(1.3);
+  transition: .3s;
+}

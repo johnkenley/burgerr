@@ -1,0 +1,65 @@
+.navbar-nav {
+	font-family: 'David Libre';
+	font-style: bold;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	letter-spacing: 0.1em;
+
+
+
+	color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+	.navbar-nav {
+		font-size: 16px;
+	}
+}
+
+.nav-item {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+.nav-item:hover {
+	color: solid #d7940d;
+}
+.brandName {
+	padding-left: 7rem;
+	padding-right: 7rem;
+
+	font-family: 'Moon Dance';
+	line-height: 45px;
+	letter-spacing: 0.1em;
+
+	background: linear-gradient(180deg, #f0bd7b 0%, #dd930c 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bg-text {
+	position: absolute;
+	top: 5px;
+	left: 40rem;
+	z-index: -1;
+	opacity: 100%;
+}
+
+.container {
+	position: relative;
+	padding-top: 5em;
+}
+
+.cart-header {
+	background-color: #85570770;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.totalamt {
+	background-color: #ebaf1731;
+}
